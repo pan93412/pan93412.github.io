@@ -18,13 +18,13 @@ keywords:
   - 編程 # 中國用詞
 author: Yi-Jyun Pan
 language: zh-tw
-timezone: 'Asia/Taipai'
+timezone: 'Asia/Taipei'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://pan93412.github.io
 root: /
-permalink: :title-:year-:month-:day
+permalink: :title-:year-:month-:day/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
