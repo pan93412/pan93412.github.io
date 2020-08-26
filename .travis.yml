@@ -6,6 +6,10 @@ branches:
   only:
     - master # build master branch only
 script:
+  - cd themes/suka
+  - yarn
+  - cd ../..
+  - yarn
   - hexo generate # generate static files
 deploy:
   provider: pages
