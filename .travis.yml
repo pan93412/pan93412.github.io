@@ -9,7 +9,6 @@ script:
   - cd themes/suka
   - yarn
   - cd ../..
-  - yarn add hexo@4
   - hexo generate # generate static files
 deploy:
   provider: pages
